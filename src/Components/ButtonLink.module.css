@@ -1,0 +1,15 @@
+.button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  color: #6534ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttonDisabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: #9b9cd5;
+}
