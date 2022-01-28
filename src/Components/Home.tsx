@@ -9,6 +9,7 @@ const Home: React.FC = () => {
         <li><Link to="/button-link">Button link</Link></li>
         <li><Link to="/downshift-select">Select (Downshift)</Link></li>
         <li><Link to="/download-csv">JSON to CSV File</Link></li>
+        <li><Link to="/async-select">Async select</Link></li>
       </ul>
     </div>
   )

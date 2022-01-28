@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { Home, ButtonLink, DownshiftSelect, DownloadCsv  } from '../Components'
+import { Home, ButtonLink, DownshiftSelect, DownloadCsv, Filter  } from '../Components'
 
 const MainRouter: React.FC = () => {
   return (
@@ -10,6 +10,7 @@ const MainRouter: React.FC = () => {
         <Route path='/button-link' element={<ButtonLink/>} />
         <Route path='/downshift-select' element={<DownshiftSelect/>} />
         <Route path='/download-csv' element={<DownloadCsv/>} />
+        <Route path='/filter' element={<Filter/>} />
         <Route path='/home' element={<Home/>} />
         <Route path='/' element={<Home/>} />
       </Routes>

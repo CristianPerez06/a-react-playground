@@ -1,0 +1,7 @@
+.filter {
+  height: 44px;
+}
+
+.filter__control {
+  background-color: pink;
+}
